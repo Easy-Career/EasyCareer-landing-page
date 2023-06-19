@@ -26,15 +26,19 @@
     <section id="inicio" class="Primaria">
         <div class="container">
             <img src="images/principal.png" alt="Hero Shot" />
+        </div>
+        <div class="text">
             <h1>¿No Sabes que estudiar?</h1>
             <h2>¡Te ayudamos a saber mas sobre tu profesion!</h2>
             <h3>Somos la pagina mas certera acerca del futuro de nuestros usuarios</h3>
         </div>
-        <div class="card">
+            <div class="card">
             <a href="#" class="btn">Solicitar Test</a>
         </div>
+        <div class="text1">
+          <h3>Descargar la app</h3>
+        </div>
         <div class="descarga">
-            <h3>Descargar la app</h3>
             <img src="images/google.png" alt="Android" />
             <img src="images/apple.png" alt="IOS" />
         </div>
@@ -43,8 +47,13 @@
 
     <section id="nosotros" class="rvnosotros">
       <div class="container">
-        <h2>Nosotros</h2>
-        <p>Nuestro objetivo es ayudarte a encontrar la profesion mas adecuada a tus gustos</p>
+        <div class="text_nosotros">
+          <h2>Nosotros</h2>
+        </div>
+        <br>
+        <br><br>
+        <br>  
+            <p>Nuestro objetivo es ayudarte a encontrar la profesion mas adecuada a tus gustos</p>
             <img src="images/alarm.png" alt="icon1" />
             <p>De forma rapida</p>
             <img src="images/locacion.png" alt="icon2" />
@@ -55,25 +64,26 @@
     </section>
 
     <section id="contact" class="contactanos">
+      <div class="text">
         <h2 class="section-title">Contactanos</h2>
         <p>Nuestros usuarios son lo más importante.<br>
-            Escríbenos y nuestro equipo te atenderá con gusto lo antes posible</p>
-            <div class="container">
-                <form class="contact-form">
-                  <label for="nombre">Nombre:</label>
-                  <input type="text" id="nombre" name="nombre" required />
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required />
-                  <label for="mensaje">Mensaje:</label>
-                  <textarea id="mensaje" name="mensaje" required></textarea>
-                  <button type="submit">Enviar</button>
-                </form>
-              </div>
+        Escríbenos y nuestro equipo te atenderá con gusto lo antes posible</p>
+      </div>
+           <div class="container">
+               <form class="contact-form">
+                 <label for="nombre">Nombre:</label>
+                 <input type="text" id="nombre" name="nombre" required />
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" required />
+                 <label for="mensaje">Mensaje:</label>
+                 <textarea id="mensaje" name="mensaje" required></textarea>
+                 <button type="submit">Enviar</button>
+              </form>
+          </div>
     </section>
 
     <section id="testimonios" class="testimonials-section">
-      <h2 class="section-title">Testimonios</h2>
-      <h2>¡Nuestros usuarios nos recomiendan!</h2>
+        <h2>¡Nuestros usuarios nos recomiendan!</h2>
       <div class="container">
         <div class="card">
           <img src="images/1.png" alt="Imagen de testimonio" />
@@ -102,30 +112,31 @@
     </section>
 
     <footer>
-      <section class="container">
-        <div class="columna">
-            <h3>Sé parte EasyCarrear</h3>
-            <li><a href="#registrate">Registrate</a></li>
-            <li><a href="#iniciosesion">Inicio Sesion</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <br>
-            <h3>Siguenos</h3>
-            <img src="images/facebook.png" alt="icon1" />
-            <img src="images/instagram.png" alt="icon1" />
-            <img src="images/twitter.png" alt="icon1" />
+        <div class="container">
+            <div class="column_izquierda">
+              <h3>Sé parte EasyCarrear</h3>
+              <li><a href="#registrate">Registrate</a></li>
+              <li><a href="#iniciosesion">Inicio Sesion</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <br>
+              <h3>Siguenos</h3>
+              <img src="images/facebook.png" alt="icon1" />
+              <img src="images/instagram.png" alt="icon1" />
+              <img src="images/twitter.png" alt="icon1" />
+            </div>    
+            <div class="column_derecha">
+              <h3>Contáctanos</h3>
+              <p>contacto@easycarrear.com</p>
+              <p>(+51) 999 888 777</p>
+            </div>    
+            <div class="column_principal">
+              <h3>Ayuda</h3>
+              <p>Preguntas frecuentes</p>
+              <p>Mapa de sitio</p>
+              <p>Búsqueda</p>
+            </div>    
+        </div>    
         </div>
-        <div class="columna">
-            <h3>Contáctanos</h3>
-            <p>contacto@easycarrear.com</p>
-            <p>(+51) 999 888 777</p>
-        </div>
-        <div class="columna">
-            <h3>Ayuda</h3>
-            <p>Preguntas frecuentes</p>
-            <p>Mapa de sitio</p>
-            <p>Búsqueda</p>
-        </div>
-      </div>
     </footer>
   </body>
 </html>
